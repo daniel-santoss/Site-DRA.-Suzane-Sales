@@ -1,0 +1,332 @@
+
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 700px;
+    background-image: url("../imagens/BANNER-HOME.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.titu h4 {
+    font: normal normal normal 35px/40px sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-left: 0;
+    padding-left: 80px;
+}
+
+
+.h4-dif {
+    background-color: #85c2ad;
+    width: 280px;
+}
+
+.contorno {
+
+    margin-left: 200px;
+    margin-right: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 14px #00000012;
+    opacity: 1;
+}
+
+
+.bt-bn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 220px;
+    left: 40px;
+}
+
+.bt-bn button {
+
+    width: 310px;
+    height: 35px;
+    background-color: #85c2ad;
+    border-radius: 22px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: -40px;
+
+}
+
+.banner a {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* Tipos de consulta */
+
+.container{
+    margin-top: -190px;
+}
+
+.col img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.col {
+    margin: 0px 5px 0px 5px;
+    text-align: left;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 17px #0000000F;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+
+.col p {
+    width: 305px;
+    height: 150px;
+    color: #6D6D6D;
+}
+
+/* Sobre a doutora */
+
+
+.doutora {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+
+}
+
+.doutora img {
+    width: 100%;
+}
+
+.img-doutora {
+    width: 50%;
+    position: absolute;
+    left: 0px;
+}
+
+.info-doutora {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-doutora span {
+    width: 350px;
+}
+
+
+
+.info-doutora p {
+    max-width: 350px;
+
+}
+
+.bt {
+    background: #E4AAAC 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    width: 150px;
+    height: 40px;
+    font: normal normal normal 18px/22px Montserrat;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+}
+
+/* Consultório */
+
+.consultorio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.info-consultorio {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    position: relative;
+    right: 90px;
+}
+
+
+.info-consultorio p {
+    width: 350px;
+}
+
+
+.info-consultorio .maps {
+    display: flex;
+    align-items: center;
+}
+
+.info-consultorio .maps button {
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e4aaac;
+    margin-right: 10px;
+}
+
+.info-consultorio .maps img {
+    width: 80px;
+    height: 22px;
+}
+
+.info-consultorio .maps h4 {
+    margin-right: 10px;
+}
+
+.inf-extra p, .inf-extra-2 p, .maps h4 {
+    color: #808183;
+    font-size: 18px;
+}
+
+
+.img-sala {
+    width: 45%;
+    position: absolute;
+    right: 0px;
+}
+
+.img-sala img {
+    width: 100%;
+}
+
+/* Grid crianças */
+
+
+.img-bebes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img-bebes img {
+    margin-right: 15px;
+}
+
+.info-bebes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bebes button {
+    background: #E4AAAC 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    width: 150px;
+    height: 40px;
+    font: normal normal normal 18px/22px Montserrat;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+}
+
+.info-bebes a {
+    color: #E4AAAC;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.info-bebes a {
+    margin-bottom: 20px;
+}
+
+.btn-consul button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E4AAAC 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    width: 150px;
+    height: 40px;
+    font: normal normal normal 18px/22px Montserrat;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+/* AGENDAR CONSULTA */
+
+.agendar-consulta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+
+}
+
+.img-consulta {
+    position: absolute;
+    left: 0;
+
+}
+
+.info-consul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 550px;
+}
+
+.info-consul p {
+    font-size: 21px;
+    width: 300px;
+}
+
+.info-consul h5 {
+    font-size: 18px;
+    color: #6D6D6D;
+}
+
+.btn-consul {
+    display: flex;
+}
+
+.btn-consul button {
+    margin-right: 20px;
+}
+
+.img-consulta img {
+    height: 350px;
+}
+
+
+.img-urso img {
+    height: 350px;
+}

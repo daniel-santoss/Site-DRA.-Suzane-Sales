@@ -1,0 +1,100 @@
+.bebes {
+    background-color: #85C2AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.img-bebes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bebes img {
+    margin-right: 15px;
+}
+
+.info-bebes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bebes button {
+    background: #E4AAAC 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    width: 150px;
+    height: 40px;
+    font: normal normal normal 18px/22px Montserrat;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+}
+
+.info-bebes a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.info-bebes a {
+    margin-bottom: 20px;
+}
+
+/* Accordion */
+
+
+#Accordion-a {
+    margin: 0 auto;
+    width: 85%;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1;
+    margin-bottom: -130px;
+}
+
+#Accordion-a * {
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+
+#accordionExample {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -40px;
+    position: relative;
+    top: 40px;
+}
+
+.accordion-body {
+    font: normal normal normal 16px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #6D6D6D;
+    opacity: 1;
+}
+
+button i {
+    color: #85C2AD;
+    font-style: normal;
+    text-align: left;
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #85C2AD;
+    opacity: 1;
+}
+
+
+.contorno {
+
+    margin-left: 200px;
+    margin-right: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 14px #00000012;
+    opacity: 1;
+}

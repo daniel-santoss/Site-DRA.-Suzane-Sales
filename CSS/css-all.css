@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contorno */
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 14px #00000012;
+    opacity: 1;
+}
+
+/* MENU */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: #85c2ad;
+    font-size: 19px;
+}
+
+.nav a:hover{
+    color: #85c2ad;
+}
+
+
+span {
+    font-family: sans-serif;
+    font-size: 21px;
+    color: #4A7866;
+    opacity: 1;
+    font-weight: bold;
+}
+
+p {
+    color: #6D6D6D;
+}
+
+/* CONTATOS FLUTUANTES */
+
+body{
+    overflow-x: hidden;
+}
+.contatos-flut {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: -112%;
+
+
+}
+
+.contatos-flut img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 40px;
+}
+
+.text-flut, .text-flut-2 {
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    padding-left: 40px;
+
+   
+}
+
+.text-flut p, .text-flut-2 p {
+    position: relative;
+    top: 7px;
+    font-size: 15px;
+}
+
+.text-flut i {
+    color: red;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.text-flut-2 i {
+    color: green;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.ct-1, .ct-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+/* Grid crianças */
+
+
+.grid .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#wd-menor {
+    width: 270px;
+    margin-right: 10px;
+    height: 390px;
+}
+
+
+#wd-maior {
+    width: 270px;
+    margin-right: 10px;
+}
+
+#db {
+    width: 100%;
+    height: 190px;
+}
+
+.div-pai {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 150px;
+    height: 510px;
+}
+
+.grid .row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 20px;
+    padding: 0;
+    gap: 10px;
+}
+
+.grid .row div h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid .row div p {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.d1 {
+    background-image: url("../imagens/mae-colo.png");
+}
+
+.d2 {
+    background-image: url("../imagens/pai-brinc.png");
+}
+
+.d3 {
+    background-image: url("../imagens/cria-chor.png");
+}
+
+.d4 {
+    background-image: url("../imagens/brinq.png");
+}
+
+.d5 {
+    background-image: url("../imagens/desen.png");
+}
+
+
+.vt {
+    display: flex;
+    justify-content: center;
+    color: #6D6D6D;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+}
+
+
+/* FOOTER */
+
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer img{
+    width: 249px;
+height: 128px;
+}
+
+.logo-footer h5{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+footer{
+    background-image: url("../imagens/fundo-footer.png");
+    background-color: #cc9494;
+    width: 100%;
+    height: 420px;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+.links-footer-1, .links-footer-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-predio img{
+    width: 300px;
+    height: 180px;
+}
+
+.consul-par h5{
+    width: 350px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.consul-par h4{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.maps button{
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e4aaac;
+    margin-right: 10px;
+}
+
+.maps img{
+    width: 80px;
+    height: 22px;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.insta p{
+    color: white;
+    font: normal normal medium 18px/19px Montserrat;
+color: #FFFFFF;
+opacity: 1;
+font-weight: 500;
+}
+
+.insta svg{
+    border-radius: 50%
+}
+
+svg{
+    margin-right: 8px;
+    width: 20px;
+    height: 30px;
+}
+
+.direitos h4{
+    font-size: 18px;
+}
+
